@@ -1,4 +1,4 @@
-## campaweb
+# campaweb
 Project to develop a website to manage camps.
 
 To synchronize with the use ftp: https://github.com/git-ftp/git-ftp
