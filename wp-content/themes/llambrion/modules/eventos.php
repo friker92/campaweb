@@ -23,7 +23,9 @@
 					<h3 class="panel-title">
 					  <?php $bg_date = DateTime::createFromFormat('Ymd', get_field('begin_date')); ?>
 					  <small><?php echo $bg_date->format('d-m-Y'); ?></small>
-					  <a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a>
+					  <?php $url = get_field('url');
+					  	if ($url=="") $url = get_permalink();?>
+					  <a href="<?php echo $url ?>"><?php echo get_the_title(); ?></a>
 					</h3>
 				</div>
 			</div>
