@@ -21,6 +21,8 @@ get_header();
 								<div class="panel-heading">
 									<h3 class="panel-title">
 										<a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a>
+									</h3>
+									<h3 class="pull-rigth">
 										<small><?php echo get_the_date(); ?></small>
 									</h3>
 								</div>
