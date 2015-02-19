@@ -18,7 +18,7 @@ the_post();
 			</div>
 			<div class="col-xs-3 pull-rigth">
 				<h1 class="pull-rigth">
-					<small>Publicado: <?php echo get_the_date(); ?></small>
+					<small><?php echo get_the_date(); ?></small>
 				</h1>
 			</div>
 
