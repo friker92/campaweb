@@ -6,7 +6,6 @@ the_post();
 <div class="fluid-container espacio-arriba-30">
 	<div class="row">
 		<div class="col-sm-8 col-xs-12">
-			Hola
 			<div class="col-xs-12">
 				<h1 class="page-title"><?php echo get_the_title(); ?></h1>
 				<br/>
