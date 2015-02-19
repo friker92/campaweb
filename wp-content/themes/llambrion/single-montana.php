@@ -5,6 +5,7 @@
  */
 
 get_header(); 
+the_post();
 ?>
 
 <div class="fluid-container espacio-arriba-20">
