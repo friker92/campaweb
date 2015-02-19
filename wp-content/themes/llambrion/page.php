@@ -37,7 +37,7 @@ the_post();
 											<div class="col-sm-12">
 												<?php the_excerpt(); ?>
 												<a href="<?php echo get_permalink(); ?>">
-													<button class="btn btn-color"><?php _e('Seguir leyendo', 'joseweb'); ?></button>
+													<button class="btn btn-color"><?php _e('M&aacutes', 'joseweb'); ?></button>
 												</a>
 											</div>
 									</div>
