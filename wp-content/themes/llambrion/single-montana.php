@@ -18,7 +18,7 @@ the_post();
 					<?php echo get_the_title(); ?>
 				</h1>
 
-				<p><?php echo get_the_content(); ?></p>
+				<p><?php the_content(); ?></p>
 
 			</div>
 
