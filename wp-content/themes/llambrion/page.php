@@ -19,22 +19,31 @@ the_post();
 						?>
 							<div class="col-xs-12 panel-info">
 								<div class="panel-heading">
-									<h3 class="panel-title">
-										<a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a>
-										<small><?php echo get_the_date(); ?></small>
-									</h3>
-								</div>
-								<div class="panel-body fondo-blanco">
 									<div class="row">
-										<div class="col-sm-12">
-											<?php the_excerpt(); ?>
-											<a href="<?php echo get_permalink(); ?>">
-												<button class="btn btn-color"><?php _e('M&aacutes', 'joseweb'); ?></button>
-											</a>
+										<div class="col-xs-8">
+											<h3 class="panel-title">
+												<a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a>
+											</h3>
+										</div>
+										<div class="col-xs-3 pull-rigth">
+											<h3 class="pull-rigth">
+												<small><?php echo get_the_date(); ?></small>
+											</h3>
 										</div>
 									</div>
+									</div>
+									<div class="panel-body fondo-blanco">
+										<div class="row">
+											<div class="col-sm-12">
+												<?php the_excerpt(); ?>
+												<a href="<?php echo get_permalink(); ?>">
+													<button class="btn btn-color"><?php _e('Seguir leyendo', 'joseweb'); ?></button>
+												</a>
+											</div>
+									</div>
 								</div>
-							</div><br/>
+							</div>
+							<br/>
 						<?php
 					}
 					wp_reset_query();

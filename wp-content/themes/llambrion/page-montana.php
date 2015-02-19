@@ -20,12 +20,12 @@ get_header();
 							<div class="col-xs-12 panel-info">
 								<div class="panel-heading">
 									<div class="row">
-										<div class="col-xs-9">
+										<div class="col-xs-8">
 											<h3 class="panel-title">
 												<a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a>
 											</h3>
 										</div>
-										<div class="col-xs-2 pull-rigth">
+										<div class="col-xs-3 pull-rigth">
 											<h3 class="pull-rigth">
 												<small><?php echo get_the_date(); ?></small>
 											</h3>
