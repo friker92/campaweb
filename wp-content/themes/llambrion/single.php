@@ -26,11 +26,8 @@ the_post();
 				<div class="col-xs-12 panel-info">
 					<div class="panel-body fondo-blanco">
 						<div class="row">
-							<div class="col-sm-12"> the
+							<div class="col-sm-12">
 								<?php the_content(); ?>
-							</div>
-							<div class="col-sm-12"> get
-								<?php echo get_the_content(); ?>
 							</div>
 						</div>
 					
