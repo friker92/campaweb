@@ -13,7 +13,7 @@ the_post();
 		<div class="col-sm-8 col-xs-12">
 			<div class="col-xs-8">
 				<h1 class="page-title">
-					<a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a>
+					<?php echo get_the_title(); ?>
 				</h1>
 			</div>
 			<div class="col-xs-3 pull-rigth">
