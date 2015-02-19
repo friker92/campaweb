@@ -27,7 +27,7 @@ the_post();
 						<div class="panel-body fondo-blanco">
 							<div class="row">
 								<div class="col-sm-12">
-									<?php echo get_the_content(); ?>
+									<?php the_content(); ?>
 								</div>
 						</div>
 					</div>
