@@ -9,6 +9,7 @@ the_post();
 			
 			<div class="col-xs-12">
 				<h1 class="page-title"><?php echo get_the_title(); ?></h1>
+				<br/>
 			</div>
 			<div class="col-xs-12">
 				<?php
@@ -20,6 +21,7 @@ the_post();
 								<div class="panel-heading">
 									<h3 class="panel-title">
 										<a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a>
+										<small><?php echo get_the_date(); ?></small>
 									</h3>
 								</div>
 								<div class="panel-body fondo-blanco">

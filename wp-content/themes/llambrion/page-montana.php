@@ -21,6 +21,7 @@ get_header();
 								<div class="panel-heading">
 									<h3 class="panel-title">
 										<a href="<?php echo get_permalink(); ?>"><?php echo get_the_title(); ?></a>
+										<small><?php echo get_the_date(); ?></small>
 									</h3>
 								</div>
 								<div class="panel-body fondo-blanco">
