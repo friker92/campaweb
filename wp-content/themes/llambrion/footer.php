@@ -17,7 +17,7 @@
 				    </div>
 				    <div class="col-xs-6">
 				      <a href="http://www.diocesisgetafe.es/">
-					<img src="http://www.llambrion.com/wp-content/uploads/2015/02/img_Fundacion-Jesus-San-Martin-copia.png" />
+					<img src="http://www.llambrion.com/wp-content/uploads/2015/02/getafe.png" />
 					<span>Diócesis de Getafe</span>
 				      </a>
 				    </div>
