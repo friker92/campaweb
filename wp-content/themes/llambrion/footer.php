@@ -8,10 +8,11 @@
 
 				<div class="row"><br/>
 					<div class="col-xs-offset-6 col-xs-6">
-					  <h4>Developers</h4>
-					  <ul><li><a href="http://josebarreramayoral.es">José Antonio de la Barrera Mayoral</a></li>
-					    <li><a onclick="p1='o:web';p2='llambrion.com'; this.href='mailt' + p1 + '@' + p2">Jesús Doménech Arellano</a></li></ul>
-<br/>
+					  <h4>Contacto</h4>
+					  <ul>
+					    <li>Sobre la web: <a onclick="p1='o:web';p2='llambrion.com'; this.href='mailt' + p1 + '@' + p2">web@llambrion.com</a></li>
+					    <li>Sobre Llambrión: <a onclick="p1='o:web';p2='llambrion.com'; this.href='mailt' + p1 + '@' + p2">contacto@llambrion.com</a></li>
+					  </ul>
 					</div>
 					<br/><br/>
 				</div><!-- .site-info -->
