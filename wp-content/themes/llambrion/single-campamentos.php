@@ -16,12 +16,12 @@ get_header();
 			  <p>Del <?php echo $bg_date->format('d-m-Y'); ?> al <?php echo $fn_date->format('d-m-Y'); ?></p>
 
 			  <p>Para: <?php echo get_field('edades'); ?></p>
-
+			  <p><b>Precio: </b><?php echo get_field('precio'); ?></p>			  
 			  <p><b>Jefe: </b><a href="mailto:<?php echo get_field('email_jefe'); ?>"><?php echo get_field('jefe'); ?></a></p>
 			  <p><b>Sacerdote: </b><?php echo get_field('sacerdote'); ?></p>
-			  
-			  <?php the_excerpt(); ?>
 
+			  <?php the_excerpt(); ?>
+			  <p><a href="<?php echo get_field('preinscripcion'); ?>">Descargar Preinscripción</a></p>
 			  <p><b>Parroquias: </b></p>
 			  <ul class="list-group">
 			    <?php 
