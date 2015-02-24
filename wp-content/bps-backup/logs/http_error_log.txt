@@ -17,3 +17,67 @@ HTTP_REFERER:
 REQUEST_URI: /campamento/index.php?site=http://www.fisheries.go.th/if-phrae/web2/images/4.txt?
 QUERY_STRING: 
 HTTP_USER_AGENT: Mozilla/3.0 (compatible; Indy Library)
+
+[403 GET / HEAD Request: 19 febrero, 2015 - 12:05]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 188.165.131.241
+Host Name: host05.soluciones.si
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 188.165.131.241
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /wp-content/uploads/2015/02/pikachu-250x300.jpg
+QUERY_STRING: 
+HTTP_USER_AGENT: WordPress/4.1.1; http://www.llambrion.com
+
+[403 GET / HEAD Request: 19 febrero, 2015 - 20:32]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 201.2.95.69
+Host Name: 201-2-95-69.pmjce700.dsl.brasiltelecom.net.br
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 201.2.95.69
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /campamento/index.php?site=http://www.fisheries.go.th/if-phrae/web2/images/4.txt?
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: 20 febrero, 2015 - 20:36]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 187.54.239.250
+Host Name: 187-54-239-250.pmjce700.dsl.brasiltelecom.net.br
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 187.54.239.250
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /campamento/index.php?site=http://www.fisheries.go.th/if-phrae/web2/images/4.txt?
+QUERY_STRING: 
+HTTP_USER_AGENT: 
+
+[403 GET / HEAD Request: 21 febrero, 2015 - 22:15]
+Event Code: BFHS - Blocked/Forbidden Hacker or Spammer
+Solution: N/A - Hacker/Spammer Blocked/Forbidden
+REMOTE_ADDR: 187.54.239.250
+Host Name: 187-54-239-250.pmjce700.dsl.brasiltelecom.net.br
+SERVER_PROTOCOL: HTTP/1.0
+HTTP_CLIENT_IP: 
+HTTP_FORWARDED: 
+HTTP_X_FORWARDED_FOR: 187.54.239.250
+HTTP_X_CLUSTER_CLIENT_IP: 
+REQUEST_METHOD: GET
+HTTP_REFERER: 
+REQUEST_URI: /campamento/index.php?site=http://www.fisheries.go.th/if-phrae/web2/images/4.txt?
+QUERY_STRING: 
+HTTP_USER_AGENT: 
