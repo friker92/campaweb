@@ -98,7 +98,9 @@ h1, h2, h3, h4, h5, h6{
 	margin-bottom: 20px;
 }
 
-
+ul{
+	padding-left: 30px;
+}
 
 
 /************GENERALES**************/
@@ -109,6 +111,13 @@ h1, h2, h3, h4, h5, h6{
 
 .espacio-arriba-20{
 	margin-top: 20px;
+}
+
+.espacio-arriba-20-xs{ margin-top: 0px; }
+@media all and (max-width: 767px){
+	.espacio-arriba-20-xs{
+		margin-top: 20px;
+	}
 }
 
 .espacio-abajo-20{
@@ -146,6 +155,10 @@ div.col-no-padding, .col-no-padding{
 
 
 
+h1.page-title{
+	text-align: center;
+}
+
 /************LAYOUT*********/
 body{
 	background-image: url('img/bg.gif');
@@ -169,6 +182,10 @@ body{
 	width: 100%;
 }
 
+.widget{
+	padding: 15px 20px;
+}
+
 /***********PIE / FOOTER****************/
 #footer-content{
 	padding: 20px;
@@ -180,6 +197,10 @@ body{
 	text-align: center
 }
 
+footer ul#contacto-footer{
+	padding: 0px;
+}
+
 #contacto-footer li{
 	color: #FFFFFF;
 	list-style-type: none;
@@ -188,4 +209,28 @@ body{
 footer a:hover{
 	cursor: pointer;
 	text-decoration: none;
+}
+
+@media all and (max-width:500px){
+	.footer-column{
+		width: 100%;
+	}
+}
+
+.footer-link.img img{
+	max-width: 100%;
+}
+
+.footer-link.span span{
+	font-size: 15px;
+}
+
+@media all and (max-width:767px){
+	.footer-link.span span{
+		font-size: 12px;
+	}
+}
+
+#contacto-footer li{
+	margin-bottom: 10px;
 }
