@@ -10,21 +10,17 @@ the_post();
 				<h1 class="page-title"><?php echo get_the_title(); ?></h1>
 			</div>
 			<div class="col-xs-12">
-				<?php the_content(); ?>
+				<div class="widget">
+					<?php the_content(); ?>
+				</div>
 			</div>
-
 		</div>
 
 		<div class="col-sm-4 col-xs-12 sidebar">
-
-
-
 			<?php 
 				get_template_part('modules/eventos');
 			?>
-
 		</div>
-
 	</div>
 </div>
 

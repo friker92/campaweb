@@ -94,6 +94,9 @@ h3{
 	font-size: 18px;
 }
 
+h1, h2, h3, h4, h5, h6{
+	margin-bottom: 20px;
+}
 
 
 
@@ -151,7 +154,7 @@ body{
 
 #main-wrapper{
 	background-color: #FFFFFF;
-	margin: 0 auto;
+	margin: 20px auto;
 	width: 1125px;
 }
 
@@ -164,4 +167,25 @@ body{
 #header-featured-img{
 	max-width: 1125px;
 	width: 100%;
+}
+
+/***********PIE / FOOTER****************/
+#footer-content{
+	padding: 20px;
+}
+
+.h4-footer{
+	font-size: 17px;
+	color: #FFFFFF;
+	text-align: center
+}
+
+#contacto-footer li{
+	color: #FFFFFF;
+	list-style-type: none;
+}
+
+footer a:hover{
+	cursor: pointer;
+	text-decoration: none;
 }
