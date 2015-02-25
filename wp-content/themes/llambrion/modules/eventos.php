@@ -18,7 +18,7 @@
 	while ( $query->have_posts() ){
 		$query->the_post();
 		?>
-			<div class="col-xs-12 panel-warning">
+			<div class="col-xs-12 panel-danger">
 				<div class="panel-heading">
 					<h3 class="panel-title">
 					  <?php $bg_date = DateTime::createFromFormat('Ymd', get_field('begin_date')); ?>
